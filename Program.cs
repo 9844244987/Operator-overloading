@@ -54,7 +54,7 @@ namespace OperatorOvlApplication {
          Console.WriteLine("Volume of Box2 : {0}", volume);
 
          // Add two object as follows:
-         Box3 = Box1 + Box2;
+         Box3 = Box1 + Box2; //operator Overloading
 
          // volume of box 3
          volume = Box3.getVolume();
